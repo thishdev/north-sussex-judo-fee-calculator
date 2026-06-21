@@ -1,0 +1,7 @@
+services:
+  north-sussex-judo:
+    build: .
+    container_name: north-sussex-judo
+    ports:
+      - "6080:6080"
+      - "5900:5900"
