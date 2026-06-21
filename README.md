@@ -27,13 +27,33 @@ On macOS, the Homebrew Python build may not include `_tkinter`. If the app fails
 Run the application from the project root:
 
 ```bash
-python main.py
+python3 main.py
 ```
 
 ## How to Run Tests
 
 ```bash
-python -m unittest discover tests
+python3 -m unittest discover tests
+```
+
+## Windows Executable
+
+From a Windows machine in the project root, run:
+
+```bat
+build_windows.bat
+```
+
+Or, in PowerShell:
+
+```powershell
+.\build_windows.ps1
+```
+
+The resulting executable will be created at:
+
+```text
+dist\NorthSussexJudoFeeCalculator.exe
 ```
 
 ## Docker
